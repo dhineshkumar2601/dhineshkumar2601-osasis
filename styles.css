@@ -1,65 +1,46 @@
 body {
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f0f0f0;
 }
 
-header {
-    text-align: center;
-    padding: 50px 0;
-    background-color: #333;
-    color: #fff;
-}
-
-header .profile-image {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-}
-
-nav {
-    background-color: #444;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-section {
+.container {
+    background: white;
     padding: 20px;
-    margin: 20px;
-    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-section h2 {
-    margin-top: 0;
+.input-group {
+    margin-bottom: 20px;
 }
 
-a {
-    color: #333;
-    text-decoration: none;
+input, select {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-a:hover {
-    text-decoration: underline;
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
 }
